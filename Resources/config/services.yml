@@ -4,4 +4,4 @@ parameters:
 services:
     enviroment.eav.entity:
         class: %enviroment.eav.entity.class%
-        arguments: [@doctrine.orm.entity_manager]
+        arguments: ["@doctrine.orm.entity_manager"]
